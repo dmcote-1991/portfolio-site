@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 html(lang="en" dir="ltr")
+
   head
     meta(charset='utf-8')
     meta(http-equiv='x-ua-compatible', content='ie=edge')
@@ -10,30 +11,37 @@ html(lang="en" dir="ltr")
     link(rel='stylesheet', href='/static/css/styles.css')
 
   body
+    //- Sidebar containing personal information
     #my-info.sidebar
       .sidebar-info-box
         br
+        //- Box for profile picture
         .thumbnail-box
-          img.thumbnail(src='https://placehold.it/550x350', alt='')
+          img.thumbnail(src='/static/images/profile-picture.jpeg', alt='')
+
+        //- Box for developer introduction
         .dev-intro-box
+          h5 David Cote
+          p As a full stack JavaScript web developer, I am proficient in both front-end and back-end development, enabling me to create comprehensive, dynamic web applications. 
+          p My expertise spans the entire stack, from designing intuitive user interfaces using frameworks like React, to building robust server-side logic with Node.js and Express. 
+          p I excel in crafting responsive, user-friendly web experiences, integrating databases such as SQL, and ensuring seamless API interactions. 
+          p My skill set also includes version control with Git, deployment strategies, and a strong understanding of web security practices. 
+          p I am passionate about lifelong learning and stay up-to-date with the latest technologies, I am adept at problem-solving and thrive in collaborative environments.
 
-          //- Replace with your name
-          h5 Name
+          //- Link to the about page
+          a(href='/about') Learn More &rarr;
 
-          //- Replace with description of who you are, what you do, and why you are so awesome
-          p Description
-
-          //- Add path from your '/about' route handler to the href below
-          a(href='') Learn More &rarr;
-
+    //- Main wrapper for the rest of the content
     .wrapper
       .header
         .header-info-box
+          //- Button to toggle sidebar visibility
           button#menu-icon.menu-icon(type='button' data-toggle='my-info')
 
-          //- Replace with your name — this is for the mobile layout
-          span Name
+          //- Developer's name in the header
+          span David Cote
 
       block content
 
+  //- Links the custom JavaScript file
   script(src='/static/js/script.js')

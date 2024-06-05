@@ -2,38 +2,33 @@ extends layout.pug
 
 block content
 
+  //- Navigation bar with a back link
   nav.nav
     a(href='/')
       span &larr;
       |  Back
 
+  //- Main article section for portfolio content
   article.portfolio-about
+    //- Wrapper for layout, using flexbox for responsive design
     .inner-wrapper.flex-row-wrap.two-col
+      //- Introduction box containing personal information
       .about-intro-box.box
+        h1 David Cote
+        p Full-Stack JavaScript Web Developer
 
-        //- Replace with your name
-        h1 Name
-
-        //- Feel free to personalize the title below
-        p Full Stack JavaScript Developer
-
-
+        //- Biography section with a detailed personal introduction
         .about-bio
+          p Hi, I'm David Cote, a certified full-stack JavaScript web developer passionate about creating dynamic and efficient web applications. I’ve completed comprehensive training in modern JavaScript technologies, including Node.js and Express. During my certification, I built several projects that honed my skills in both front-end and back-end development, focusing on delivering responsive and user-friendly experiences. My enthusiasm for learning and problem-solving drives me to continuously expand my expertise. I am committed to lifelong learning and staying current with industry trends, ensuring that I bring the most innovative solutions to the table. I’m eager to bring fresh perspectives and develop creative solutions with your team, and I’m ready to tackle complex challenges head-on.
 
-          //- Replace the boilerplate below with your best elevator pitch
-          p This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position. 
-
-
+      //- Box containing skills and contact information
       .skills-contact-box.box
         h6 Skills
-
-        //- Replace skills below with your own skills — at this point, you should be able to list as many as ten skills
         ul
           li HTML
           li CSS
           li JavaScript
           li Git and GitHub
-          li VS Code
           li Accessibility
           li OOP
           li Fetch and Public APIs
@@ -42,17 +37,15 @@ block content
           li Pug
 
         h6 Contact Info
-
-        //- Replace with your own contact info - feel free to use fake information if you prefer
         ul
-          li 555-555-1234
-          li email@email.com
+          li 555-555-4912
+          li dmc1991@email.com
 
-        //- Add URLs to the hrefs below to link to your social media accounts - feel free to use non-personal links to social media home pages if you prefer
-        a.btn-link(href='') LinkedIn
-        a.btn-link(href='') GitHub
-        a.btn-link(href='') Twitter
+        //- Links to LinkedIn and GitHub profiles
+        a.btn-link(href='https://linkedin.com/in/dmcote1991', target='_blank') LinkedIn
+        a.btn-link(href='https://github.com/dmcote-1991', target='_blank') GitHub
 
+    //- Repeating navigation bar at the bottom with a back link
     nav.nav
       a(href='/')
         span &larr;

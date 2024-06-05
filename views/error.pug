@@ -1,0 +1,14 @@
+extend layout
+
+block content 
+
+  //- Displays the error status and message
+  h1 Error #{status}
+  p #{message}
+  
+  //- Displays the stack trace if the status is not 404 and an error stack is present
+  if status !== 404 && error.stack
+    pre #{error.stack}
+
+  //- Link to navigate back to the home page
+  a(href='/') Back to Home

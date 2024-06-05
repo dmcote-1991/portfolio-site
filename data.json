@@ -1,0 +1,90 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "random-quote-generator",
+            "description": "An app that displays random famous quotes each time a button is clicked.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "live_link": "https://dmcote-1991.github.io/random-quote-generator/",
+            "github_link": "https://github.com/dmcote-1991/random-quote-generator",
+            "image_urls": [
+                "/static/images/quote-main.png",
+                "/static/images/quote-1.png",
+                "/static/images/quote-2.png",
+                "/static/images/quote-3.png"
+            ]
+        },
+        {
+            "id": 1,
+            "project_name": "data-pagination-filtering",
+            "description": "Pagination of student data that a user can easily navigate and view.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "live_link": "https://dmcote-1991.github.io/data-pagination-filtering/",
+            "github_link": "https://github.com/dmcote-1991/data-pagination-filtering",
+            "image_urls": [
+                "/static/images/pagination-main.png",
+                "/static/images/pagination-1.png",
+                "/static/images/pagination-2.png"
+            ]
+        },
+        {
+            "id": 2,
+            "project_name": "interactive-form",
+            "description": "Using JavaScript to make a form more user-friendly by adding customized, conditional behavior and interactivity and by validating user input, providing helpful error messages when the user enters invalid information into the form fields.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "live_link": "https://dmcote-1991.github.io/interactive-form/",
+            "github_link": "https://github.com/dmcote-1991/interactive-form",
+            "image_urls": [
+                "/static/images/form-main.png",
+                "/static/images/form-1.png",
+                "/static/images/form-2.png",
+                "/static/images/form-3.png"
+            ]
+        },
+        {
+            "id": 3,
+            "project_name": "oop-gameshow-app",
+            "description": "A browser-based, word guessing game that uses JavaScript and OOP (Object-Oriented-Programming) to select a random, hidden phrase, which a player tries to guess, by clicking letters on an onscreen keyboard.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "live_link": "https://dmcote-1991.github.io/oop-gameshow-app/",
+            "github_link": "https://github.com/dmcote-1991/oop-gameshow-app",
+            "image_urls": [
+                "/static/images/oop-main.png",
+                "/static/images/oop-1.png"
+            ]
+        },
+        {
+            "id": 4,
+            "project_name": "public-api-requests",
+            "description": "An employees directory app.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "live_link": "https://dmcote-1991.github.io/public-api-requests/",
+            "github_link": "https://github.com/dmcote-1991/public-api-requests",
+            "image_urls": [
+                "/static/images/api-main.png",
+                "/static/images/api-1.png",
+                "/static/images/api-2.png"
+            ]
+        }
+    ]
+}

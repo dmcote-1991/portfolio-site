@@ -98,9 +98,9 @@
             "live_link": "https://dmcote-1991.github.io/react-gallery-app/",
             "github_link": "https://github.com/dmcote-1991/react-gallery-app",
             "image_urls": [
-                "/static/images/api-main.png",
-                "/static/images/api-1.png",
-                "/static/images/api-2.png"
+                "/static/images/gallery-main.png",
+                "/static/images/gallery-1.png",
+                "/static/images/gallery-2.png"
             ]
         }
     ]

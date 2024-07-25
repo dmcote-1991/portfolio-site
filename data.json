@@ -102,6 +102,24 @@
                 "/static/images/gallery-1.png",
                 "/static/images/gallery-2.png"
             ]
+        },
+        {
+            "id": 6,
+            "project_name": "sql-library-manager",
+            "description": "A dynamic and intuitive application for managing a library's collection of books.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Pug"
+            ],
+            "live_link": "https://dmcote-1991.github.io/sql-library-manager/",
+            "github_link": "https://github.com/dmcote-1991/sql-library-manager",
+            "image_urls": [
+                "/static/images/library-main.png",
+                "/static/images/library-1.png",
+                "/static/images/library-2.png"
+            ]
         }
     ]
 }

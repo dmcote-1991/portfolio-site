@@ -3,10 +3,10 @@
         {
             "id": 0,
             "project_name": "random-quote-generator",
-            "description": "An app that displays random famous quotes each time a button is clicked.",
+            "description": "Developed an interactive application that displays random famous quotes at the click of a button. The app dynamically renders inspirational quotes, providing users with a seamless and engaging experience for discovering new insights and wisdom.",
             "technologies": [
-                "HTML",
-                "CSS",
+                "HTML5",
+                "CSS3",
                 "JavaScript"
             ],
             "live_link": "https://dmcote-1991.github.io/random-quote-generator/",
@@ -21,11 +21,12 @@
         {
             "id": 1,
             "project_name": "data-pagination-filtering",
-            "description": "Pagination of student data that a user can easily navigate and view.",
+            "description": "Implemented a pagination system for student data, allowing users to easily navigate and view datasets in a structured and user-friendly manner. The feature supports seamless page transitions and enhances the user experience by presenting information in manageable segments.",
             "technologies": [
-                "HTML",
-                "CSS",
-                "JavaScript"
+                "HTML5",
+                "CSS3",
+                "JavaScript",
+                "Pagination"
             ],
             "live_link": "https://dmcote-1991.github.io/data-pagination-filtering/",
             "github_link": "https://github.com/dmcote-1991/data-pagination-filtering",
@@ -38,11 +39,15 @@
         {
             "id": 2,
             "project_name": "interactive-form",
-            "description": "Using JavaScript to make a form more user-friendly by adding customized, conditional behavior and interactivity and by validating user input, providing helpful error messages when the user enters invalid information into the form fields.",
+            "description": "Created an interactive form using JavaScript, enabling real-time validation and customized error messaging to ensure data integrity and enhance user experience. Theform dynamically indicates empty or incorrectly formatted fields, improving accessibility and usability.",
             "technologies": [
-                "HTML",
-                "CSS",
-                "JavaScript"
+                "HTML5",
+                "CSS3",
+                "JavaScript",
+                "DOM Manipulation",
+                "Regex",
+                "Accessibility",
+                "Validation"
             ],
             "live_link": "https://dmcote-1991.github.io/interactive-form/",
             "github_link": "https://github.com/dmcote-1991/interactive-form",
@@ -56,11 +61,12 @@
         {
             "id": 3,
             "project_name": "oop-gameshow-app",
-            "description": "A browser-based, word guessing game that uses JavaScript and OOP (Object-Oriented-Programming) to select a random, hidden phrase, which a player tries to guess, by clicking letters on an onscreen keyboard.",
+            "description": "Engineered a browser-based word guessing game utilizing object-oriented programming principles to select random, hidden phrases for users to guess. Enabled user interactions through both physical and onscreen keyboards.",
             "technologies": [
-                "HTML",
-                "CSS",
-                "JavaScript"
+                "HTML5",
+                "CSS3",
+                "JavaScript",
+                "Object Oriented Programming"
             ],
             "live_link": "https://dmcote-1991.github.io/oop-gameshow-app/",
             "github_link": "https://github.com/dmcote-1991/oop-gameshow-app",
@@ -72,11 +78,14 @@
         {
             "id": 4,
             "project_name": "public-api-requests",
-            "description": "An employees directory app.",
+            "description": "Developed an employee directory application that leverages public APIs to fetch and display employee data. The app allows users to search, filter, and view detailed information about employees, providing a comprehensive and interactive tool for managing and exploring employee information.",
             "technologies": [
-                "HTML",
-                "CSS",
-                "JavaScript"
+                "HTML5",
+                "CSS3",
+                "JavaScript",
+                "API Integration",
+                "Data Management",
+                "User Interface Design"
             ],
             "live_link": "https://dmcote-1991.github.io/public-api-requests/",
             "github_link": "https://github.com/dmcote-1991/public-api-requests",
@@ -89,13 +98,20 @@
         {
             "id": 5,
             "project_name": "react-gallery-app",
-            "description": "A single-page application (SPA) image gallery app made with React.",
+            "description": "Developed a dynamic single-page application for an image gallery using React. Implemented features for smooth navigation, state management, and data fetching, ensuring a responsive and user-friendly interface.",
             "technologies": [
-                "HTML",
-                "CSS",
-                "JavaScript"
+                "HTML5",
+                "CSS3",
+                "JavaScript",
+                "React",
+                "React Router",
+                "Vite",
+                "ESLint",
+                "Axios",
+                "PropTypes",
+                "State",
+                "Data Fetching"
             ],
-            "live_link": "https://dmcote-1991.github.io/react-gallery-app/",
             "github_link": "https://github.com/dmcote-1991/react-gallery-app",
             "image_urls": [
                 "/static/images/gallery-main.png",
@@ -106,14 +122,26 @@
         {
             "id": 6,
             "project_name": "sql-library-manager",
-            "description": "A dynamic and intuitive application for managing a library's collection of books.",
+            "description": "Created a dynamic application for managing a library’s book collection. Implemented comprehensive CRUD operations with pagination, utilizing SQL and Sequelize ORM for robust data handling and asynchronous programming for improved performance.",
             "technologies": [
-                "HTML",
-                "CSS",
+                "HTML5",
+                "CSS3",
                 "JavaScript",
-                "Pug"
+                "SQL",
+                "Sequelize ORM",
+                "Sequelize CLI",
+                "SQLite",
+                "Node.js",
+                "Express",
+                "Pug",
+                "Asynchronous Programming",
+                "Promises",
+                "Async/Await",
+                "Try...Catch",
+                "CookieParser",
+                "Morgan",
+                "Pagination"
             ],
-            "live_link": "https://dmcote-1991.github.io/sql-library-manager/",
             "github_link": "https://github.com/dmcote-1991/sql-library-manager",
             "image_urls": [
                 "/static/images/library-main.png",

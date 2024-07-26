@@ -25,7 +25,10 @@ block content
             li #{technology}
 
         //- Links to the live demo of the project and the GitHub repository
-        a.btn-link(href=project.live_link, target='_blank') Live Demo
+        //- Conditionally include the "Live Demo" link only if live_link is present
+        if project.live_link
+          a.btn-link(href=project.live_link, target='_blank') Live Demo
+        //- Always include the GitHub link
         a.btn-link(href=project.github_link, target='_blank') GitHub Repo
 
     //- Box containing project images

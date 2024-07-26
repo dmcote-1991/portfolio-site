@@ -2,7 +2,7 @@
     "projects": [
         {
             "id": 0,
-            "project_name": "random-quote-generator",
+            "project_name": "Random Quote Generator",
             "description": "Developed an interactive application that displays random famous quotes at the click of a button. The app dynamically renders inspirational quotes, providing users with a seamless and engaging experience for discovering new insights and wisdom.",
             "technologies": [
                 "HTML5",
@@ -20,7 +20,7 @@
         },
         {
             "id": 1,
-            "project_name": "data-pagination-filtering",
+            "project_name": "Data Pagination Filtering",
             "description": "Implemented a pagination system for student data, allowing users to easily navigate and view datasets in a structured and user-friendly manner. The feature supports seamless page transitions and enhances the user experience by presenting information in manageable segments.",
             "technologies": [
                 "HTML5",
@@ -38,7 +38,7 @@
         },
         {
             "id": 2,
-            "project_name": "interactive-form",
+            "project_name": "Interactive Form",
             "description": "Created an interactive form using JavaScript, enabling real-time validation and customized error messaging to ensure data integrity and enhance user experience. Theform dynamically indicates empty or incorrectly formatted fields, improving accessibility and usability.",
             "technologies": [
                 "HTML5",
@@ -60,7 +60,7 @@
         },
         {
             "id": 3,
-            "project_name": "oop-gameshow-app",
+            "project_name": "OOP Gameshow App",
             "description": "Engineered a browser-based word guessing game utilizing object-oriented programming principles to select random, hidden phrases for users to guess. Enabled user interactions through both physical and onscreen keyboards.",
             "technologies": [
                 "HTML5",
@@ -77,7 +77,7 @@
         },
         {
             "id": 4,
-            "project_name": "public-api-requests",
+            "project_name": "Public API Requests",
             "description": "Developed an employee directory application that leverages public APIs to fetch and display employee data. The app allows users to search, filter, and view detailed information about employees, providing a comprehensive and interactive tool for managing and exploring employee information.",
             "technologies": [
                 "HTML5",
@@ -97,7 +97,7 @@
         },
         {
             "id": 5,
-            "project_name": "react-gallery-app",
+            "project_name": "React Gallery App",
             "description": "Developed a dynamic single-page application for an image gallery using React. Implemented features for smooth navigation, state management, and data fetching, ensuring a responsive and user-friendly interface.",
             "technologies": [
                 "HTML5",
@@ -121,7 +121,7 @@
         },
         {
             "id": 6,
-            "project_name": "sql-library-manager",
+            "project_name": "SQL Library Manager",
             "description": "Created a dynamic application for managing a library’s book collection. Implemented comprehensive CRUD operations with pagination, utilizing SQL and Sequelize ORM for robust data handling and asynchronous programming for improved performance.",
             "technologies": [
                 "HTML5",

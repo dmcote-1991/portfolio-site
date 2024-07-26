@@ -148,6 +148,44 @@
                 "/static/images/library-1.png",
                 "/static/images/library-2.png"
             ]
+        },
+        {
+            "id": 7,
+            "project_name": "Full Stack App",
+            "description": "Developed and implemented a comprehensive full stack application enabling users to manage a school database with detailed information about courses. Facilitated course retrieval, detailed views, and allowed authenticated users to create, update, and delete courses they’ve created, ensuring robust data management and security.",
+            "technologies": [
+                "HTML5",
+                "CSS3",
+                "JavaScript",
+                "REST API Development",
+                "REST API Integration",
+                "React",
+                "React Router",
+                "React Context API",
+                "React Markdown",
+                "Node.js",
+                "Express",
+                "SQL",
+                "Sequelize ORM",
+                "Sequelize CLI",
+                "SQLite",
+                "BCrypt",
+                "CORS",
+                "Morgan",
+                "PropTypes",
+                "ESLint",
+                "Vite",
+                "Nodemon",
+                "Validation",
+                "Authentication"
+            ],
+            "github_link": "https://github.com/dmcote-1991/full-stack-app",
+            "image_urls": [
+                "/static/images/full-main.png",
+                "/static/images/full-1.png",
+                "/static/images/full-2.png",
+                "/static/images/full-3.png"
+            ]
         }
     ]
 }

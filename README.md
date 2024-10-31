@@ -33,7 +33,6 @@ This portfolio site displays information about my skills, projects, and experien
 - **Frontend**: HTML, CSS, JavaScript
 - **Backend**: Node.js, Express
 - **Templating Engine**: Pug
-- **Additional Tools**: Path, Nodemon (for development)
 
 ## Installation
 
@@ -101,9 +100,3 @@ portfolio-site/
 ## Contact
 
 Feel free to reach out on [LinkedIn](https://linkedin.com/in/dmcote1991) or visit my [GitHub](https://github.com/dmcote-1991) to see more of my work.
-
----
-
-### License
-
-This project is licensed under the [ISC License](./LICENSE.txt).

@@ -1,4 +1,4 @@
-extends layout.pug
+extends layout
 
 block content
 
@@ -19,6 +19,6 @@ block content
           //- Link to the live project
           a(href=`/project/${project.id}`)
             //- Project thumbnail image
-            img.thumbnail(src=project.image_urls[0], alt='Thumbnail #{project.project_name}')
+            img.thumbnail(src=project.image_urls[0], alt='Thumbnail ${project.project_name}')
             //- Project name
             h5= project.project_name 

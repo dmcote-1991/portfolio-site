@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                      // Target ECMAScript 6 for async/await support
+    "module": "commonjs",                 // Use CommonJS for Node.js compatibility
+    "strict": true,                       // Enable strict type-checking options
+    "resolveJsonModule": true,            // Enable JSON imports
+    "esModuleInterop": true,              // Allow default imports from CommonJS modules
+    "skipLibCheck": true,                 // Skip type checking of declaration files for faster compilation
+    "forceConsistentCasingInFileNames": true, // Ensure consistent casing across imports
+
+    // Paths for resolving modules and files
+    "baseUrl": "./",
+    "outDir": "./dist",                   // Output compiled JavaScript files to the dist folder   
+    "rootDir": "./",                      // Root directory for input files to flatten structure 
+
+    // For client-side code compatibility
+    "moduleResolution": "node",           // Node module resolution strategy
+    "lib": ["DOM", "ES6"],                // Include browser and ES6 features for client code
+    "allowJs": true,                      // Allow JavaScript files, in case you have any JS left
+
+    // Optional: Include Source Maps for debugging
+    // "sourceMap": true                     // Generate .map files for debugging
+  },
+  "include": ["app.ts", "public/script.ts"],
+  "exclude": ["node_modules", "dist"]     // Exclude node_modules to prevent type conflicts
+}

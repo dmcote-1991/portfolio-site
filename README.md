@@ -30,7 +30,7 @@ This portfolio site displays information about my skills, projects, and experien
 
 ## Technologies Used
 
-- **Frontend**: HTML, CSS, JavaScript
+- **Frontend**: TypeScript, CSS
 - **Backend**: Node.js, Express
 - **Templating Engine**: Pug
 
@@ -68,19 +68,25 @@ To access the site, open a browser and go to `http://localhost:3000`. From here,
 ```bash
 portfolio-site/
 ├── public/                # Static files
+│   ├── script.ts
 │   ├── css/
-│   ├── images/
-│   └── js/
+│   └── images/
+├── dist/                  # Compiled JavaScript files
+│   ├── public/
+│   │    └── script.js
+│   ├── app.js
+│   └── data.json
 ├── views/                 # Pug templates for rendering pages
+│   ├── layout.pug
 │   ├── index.pug          # Homepage
 │   ├── about.pug
 │   ├── project.pug
-│   ├── layout.pug
 │   ├── page-not-found.pug # 404 error page
 │   └── error.pug          # General error page
+├── app.ts                 # Express application setup and routes
 ├── data.json
-├── app.js                 # Express application setup and routes
 ├── package.json
+├── tsconfig.json
 ├── .gitignore
 └── README.md
 ```

@@ -30,8 +30,11 @@ const app = express();
 // Set view engine to Pug
 app.set(`view engine`, `pug`);
 
-// Serve static files from the public directory
+// Serve static files from the public directory for CSS and images
 app.use('/static', express.static(path.join(__dirname, '../public')));
+
+// Serve the compiled JavaScript file from the dist/public directory
+app.use('/static', express.static(path.join(__dirname, '../dist/public')));
 
 /*
 *   Route Handlers

@@ -1,4 +1,3 @@
-
 /*
   Main styles
 */
@@ -32,7 +31,7 @@ article {
 }
 
 h1,h2,h3,h4,h5,p{
-  font-family: 'Merriweather', serif;
+  font-family: Georgia, serif;
 }
 
 h5{
@@ -101,7 +100,6 @@ a {
   font-size: 13px;
 }
 
-
 /*
   Sidebar and mobile header
 */
@@ -137,7 +135,7 @@ nav a span {
   height: 100%;
   min-height: 100%;
   padding: 20px;
-  background: #000;
+  background: #333;
 }
 
 .sidebar-info-box {
@@ -151,7 +149,7 @@ nav a span {
 .sidebar .thumbnail {
   width: 100%;
   max-width: 250px;
-  border: 4px solid #fff;
+  border: 1px solid #fff;
 }
 
 .dev-intro-box {
@@ -167,7 +165,7 @@ nav a span {
   text-rendering: optimizeLegibility;
   line-height: 1.6;
   font-size: 14px;
-  color: #999
+  color: #bbb
 }
 
 .sidebar a {
@@ -176,7 +174,7 @@ nav a span {
   font-size: 13px;
   letter-spacing: 2.5px;
   text-transform: uppercase;
-  color: #555;
+  color: #888;
 }
 
 .header {
@@ -184,8 +182,8 @@ nav a span {
   color: #fefefe;
   height: 40px;
   padding: 0.5rem;
-  background: #0a0a0a;
-  border-left: 1px solid #0a0a0a;
+  background: #333;
+  border-left: 1px solid #333;
 }
 
 .header span {
@@ -217,7 +215,6 @@ nav a span {
   height: 2px;
   background: #fefefe;
 }
-
 
 /*
   Home page styles
@@ -262,7 +259,6 @@ nav a span {
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
 }
 
-
 /* 
   About and project pages styles 
 */
@@ -299,7 +295,6 @@ nav a span {
   background-color: #333;
   border: 1px solid transparent;
 }
-
 
 /* 
   Tablet layout styles 
@@ -340,7 +335,6 @@ nav a span {
   }
 }
 
-
 /* 
   Desktop layout styles 
 */
@@ -361,33 +355,4 @@ nav a span {
   .inner-wrapper {
     max-width: 1200px;
   }
-}
-
-
-/*
-  Additional styles
-*/
-h1,h2,h3,h4,h5,p{
-  font-family: Georgia, serif;
-}
-
-.header {
-  background: #333;
-  border-left: 1px solid #333;
-}
-
-.sidebar {
-  background: #333;
-}
-
-.sidebar .thumbnail {
-  border: 1px solid #fff;
-}
-
-.sidebar p {
-  color: #bbb
-}
-
-.sidebar a {
-  color: #888;
 }

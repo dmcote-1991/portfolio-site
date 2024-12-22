@@ -3,8 +3,8 @@ extends layout
 block content
 
   //- Navigation bar with a back link
-  nav.nav
-    a(href='/')
+  nav.nav(role="navigation" aria-label="Back navigation")
+    a(href='/' aria-label="Back to homepage")
       span &larr;
       |  Back
 
@@ -22,8 +22,8 @@ block content
           p Hi, I'm David Cote, a certified full-stack JavaScript web developer passionate about creating dynamic and efficient web applications. I’ve completed comprehensive training in modern JavaScript technologies, including Node.js and Express. During my certification, I built several projects that honed my skills in both front-end and back-end development, focusing on delivering responsive and user-friendly experiences. My enthusiasm for learning and problem-solving drives me to continuously expand my expertise. I am committed to lifelong learning and staying current with industry trends, ensuring that I bring the most innovative solutions to the table. I’m eager to bring fresh perspectives and develop creative solutions with your team, and I’m ready to tackle complex challenges head-on.
 
         //- Links to LinkedIn and GitHub profiles
-        a.btn-link(href='https://linkedin.com/in/dmcote1991', target='_blank') LinkedIn
-        a.btn-link(href='https://github.com/dmcote-1991', target='_blank') GitHub
+        a.btn-link(href='https://linkedin.com/in/dmcote1991', target='_blank' aria-label="David's LinkedIn Profile") LinkedIn
+        a.btn-link(href='https://github.com/dmcote-1991', target='_blank' aria-label="David's GitHub Profile") GitHub
 
       //- Box containing skills and contact information
       .skills-contact-box.box
@@ -94,7 +94,7 @@ block content
         //-   li dmc1991@email.com
 
     //- Repeating navigation bar at the bottom with a back link
-    nav.nav
-      a(href='/')
+    nav.nav(role="navigation" aria-label="Back navigation")
+      a(href='/' aria-label="Back to homepage")
         span &larr;
         |  Back

@@ -3,23 +3,23 @@ extends layout
 block content
 
   //- Navigation bar with a back link
-  nav.nav
-    a(href='/')
+  nav.nav(role="navigation" aria-label="Main Navigation")
+    a(href='/', aria-label="Back to Home")
       span &larr;
       |  Back
 
   //- Main article section for project details
-  article.portfolio-projects
+  article.portfolio-projects(role="main")
     //- Wrapper for layout, using flexbox for responsive design
     .inner-wrapper.flex-row-wrap.two-col
       //- Box containing project information
-      .project-info-box.box
+      .project-info-box.box(role="region" aria-labelledby="project-title")
         h1 #{project.project_name}
         p #{project.description}
 
       //- Box containing technologies used and project links
-      .project-tech-links-box.box
-        h6 Technologies
+      .project-tech-links-box.box(role="region" aria-labelledby="tech-links-title")
+        h6#tech-links-title Technologies
         ul
           each technology in project.technologies
             li #{technology}
@@ -27,20 +27,21 @@ block content
         //- Links to the live demo of the project and the GitHub repository
         //- Conditionally include the "Live Demo" link only if live_link is present
         if project.live_link
-          a.btn-link(href=project.live_link, target='_blank') Live Demo
+          a.btn-link(href=project.live_link, target='_blank', rel="noopener noreferrer", aria-label="Live Demo of #{project.project_name}") Live Demo
         //- Always include the GitHub link
-        a.btn-link(href=project.github_link, target='_blank') GitHub Repo
+        a.btn-link(href=project.github_link, target='_blank', rel="noopener noreferrer", aria-label="GitHub Repository for #{project.project_name}") GitHub Repo
 
     //- Box containing project images
-    .project-img-box.box
-      img.project-img(src=project.image_urls[1], alt='project image')
+    .project-img-box.box(role="region", aria-labelledby="images-title")
+      h6#images-title Project Images
+      img.project-img(src=project.image_urls[1], alt='Image of #{project.project_name}')
       if project.image_urls[2]
-        img.project-img(src=project.image_urls[2], alt='project image')
+        img.project-img(src=project.image_urls[2], alt='Aditional image of #{project.project_name}')
       if project.image_urls[3]
-        img.project-img(src=project.image_urls[3], alt='project image')
+        img.project-img(src=project.image_urls[3], alt='Additional image of #{project.project_name}')
 
     //- Repeating navigation bar at the bottom with a back link
-    nav.nav
-      a(href='/')
+    nav.nav(role="navigation" aria-label="Footer Navigation")
+      a(href='/', aria-label="Back to Home")
         span &larr;
         |  Back

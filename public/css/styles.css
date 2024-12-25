@@ -296,6 +296,137 @@ nav a span {
   border: 1px solid transparent;
 }
 
+/* Accessibility Enhancements */
+[role="navigation"] {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+
+[role="main"] {
+  padding: 20px;
+}
+
+[role="region"] {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+/* Skip Link */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #000;
+  color: #fff;
+  padding: 8px 16px;
+  z-index: 1000;
+  text-decoration: none;
+  transition: top 0.3s ease;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* Focus States for Interactive Elements */
+a:focus,
+button:focus {
+  outline: 3px solid #005fcc;
+  outline-offset: 2px;
+}
+
+a.btn-link:focus {
+  outline-color: #ff5733;
+}
+
+/* Header and Navigation */
+.role-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #222;
+  color: #fff;
+  padding: 10px 15px;
+}
+
+.nav a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.nav a:hover,
+.nav a:focus {
+  text-decoration: underline;
+}
+
+/* Sidebar */
+.sidebar {
+  background-color: #222;
+  padding: 20px;
+  border-right: 1px solid #444;
+}
+
+.thumbnail-box img {
+  border-radius: 50%;
+  border: 2px solid #ccc;
+}
+
+/* Main Layout */
+.inner-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-row-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.two-col {
+  flex: 1 1 50%;
+}
+
+/* Project Images */
+.project-img-box img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Buttons */
+.btn-link {
+  margin-top: 10px;
+  padding: 10px 20px;
+  color: #fefefe;
+  background-color: #333;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn-link:hover,
+.btn-link:focus {
+  background-color: #0056b3;
+}
+
+/* Error Pages */
+.error-page {
+  text-align: center;
+  padding: 50px;
+}
+
+.error-page h1 {
+  font-size: 48px;
+  color: #ff0000;
+}
+
+.error-page p {
+  font-size: 18px;
+}
+
 /* 
   Tablet layout styles 
 */

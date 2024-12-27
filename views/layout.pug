@@ -15,7 +15,10 @@ html(lang="en" dir="ltr")
       //- Accessible name for skip-to-content
       a(href="main-content" class="skip-link") Skip to content
       .header-info-box 
-        button#menu-icon.menu-icon(type='button' aria-expanded='false' aria-controls='my-info') Toggle Menu 
+        button#menu-icon.menu-icon(type='button' aria-expanded='false' aria-controls='my-info' aria-label='Toggle sidebar menu')
+          //- Sliding panel icon
+          svg(width='24' height='24' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg')
+            path(d='M3 6h18v2H3V6zm0 5h18v2H3v-2zm0 5h18v2H3v-2z')
         span David Cote 
 
     //- Sidebar containing personal information

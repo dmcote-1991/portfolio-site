@@ -216,6 +216,32 @@ nav a span {
   background: #fefefe;
 }
 
+.header-info-box {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+  gap: 10px; /* Adds space between the icon and the text */
+}
+
+#menu-icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+#menu-icon svg {
+  fill: #fefefe; /* Default color for the icon */
+  width: 24px;
+  height: 24px;
+  transition: fill 0.3s ease;
+}
+
+#menu-icon:hover svg {
+  fill: #005fcc; /* Change color on hover */
+}
+
 /*
   Home page styles
 */
@@ -349,6 +375,10 @@ a.btn-link:focus {
   background-color: #222;
   color: #fff;
   padding: 10px 15px;
+}
+
+.role-header span {
+  font-size: 16px;
 }
 
 .nav a {
